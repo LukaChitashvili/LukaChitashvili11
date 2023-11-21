@@ -45,13 +45,13 @@ input[type="text"] {
   margin-left: 645px;
   margin-top: -316px;
 }
-
-input[type="description"] {
+textarea {
   width: 756px;
   height: 298px;
   background-color: #00000033 20%;
   font-weight: 700;
   font-family: Helvetica, sans-serif;
+  resize: none;
 }
 
 input[type="email"] {
