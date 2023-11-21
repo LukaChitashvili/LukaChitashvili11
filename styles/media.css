@@ -45,6 +45,7 @@
   }
   .bigbox {
     height: 1000px;
+    width: 633px;
     transition: all 0.1s ease-in-out;
   }
   .div2 {

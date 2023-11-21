@@ -72,8 +72,11 @@ input[type="submit"] {
   color: white;
   margin-top: 20px;
   font-family: Helvetica, sans-serif;
+  border: none;
 }
-
+input[type="submit"]:hover {
+  background-color: #2539ec;
+}
 .flex-container {
   display: flex;
 }
@@ -99,7 +102,7 @@ input[type="submit"] {
 }
 
 .box3 {
-  margin-top: 51px;
+  margin-top: 55px;
   margin-left: 100px;
   background-color: #5968f4;
   width: 68px;
@@ -112,6 +115,27 @@ i {
   margin-left: 25px;
   margin-top: 25px;
   color: blue;
+}
+
+.email2 {
+  width: 41px;
+  height: 29px;
+  margin-left: 14px;
+  margin-top: 22px;
+}
+
+.phone {
+  width: 51px;
+  height: 41px;
+  margin-left: 7px;
+  margin-top: 12px;
+}
+
+.location {
+  margin-left: 22px;
+  margin-top: 18px;
+  width: 23px;
+  height: 38px;
 }
 
 .h2 {
@@ -321,7 +345,7 @@ h4 {
 }
 
 .fa-envelope {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .div5 {
